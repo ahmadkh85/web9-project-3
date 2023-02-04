@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- start Header -->
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col">Tel : 07907979 - Email: ahmad@gmail.com</div>
+        <div class="col">
+          <!-- <button class="btn btn-primary">LOG IN</button> -->
+          <a href="" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">Log In</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Header -->
+
+  <!-- start navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imegs/logo.png" class="navlogo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Bolg</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              More...
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">About Us</a>
+                <a class="dropdown-item" href="#">Help</a>
+                <a class="dropdown-item" href="#">Setting</a>
+                
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- End navbar -->
+
+  <!-- Start Slider -->
+
+  <div class="bd-example">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="overlay"></div>
+        <div class="carousel-item active">
+          <img src="imegs/1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imegs/2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imegs/3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- End Slider -->
+
+
+
+  <!-- Start features -->
+
+  <div class="features">
+    <div class="container">
+      <h2 class="con-h2">My Featuers</h2>
+      <p class="con-p">Lorem ipsum dolor sit amet.</p>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 text-center">
+          <i class="fa-sharp fa-solid fa-shield"></i>
+          <h3>Save</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+            illum voluptas, animi eaque quos quibusdam, porro atque at facilis
+            perferendis saepe, nisi id omnis eligendi qui debitis nulla hic
+            sit?
+          </p>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <h3>comfort</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+            illum voluptas, animi eaque quos quibusdam, porro atque at facilis
+            perferendis saepe, nisi id omnis eligendi qui debitis nulla hic
+            sit?
+          </p>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <i class="fa-solid fa-calendar-check"></i>
+          <h3>Time</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+            illum voluptas, animi eaque quos quibusdam, porro atque at facilis
+            perferendis saepe, nisi id omnis eligendi qui debitis nulla hic
+            sit?
+          </p>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <i class="fa-solid fa-list"></i>
+          <h3>List</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+            illum voluptas, animi eaque quos quibusdam, porro atque at facilis
+            perferendis saepe, nisi id omnis eligendi qui debitis nulla hic
+            sit?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End features -->
+  <!-- Start our-team-->
+  <div class="our-team">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2 class="con-h2">Our-Team</h2>
+      <p class="con-p">Lorem ipsum dolor sit amet.</p>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="imegs/team1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Ahmad khalil</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="imegs/team2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Mohammad</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="imegs/team1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Omar</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End our-team-->
+  <!-- Start  statistics-->
+  <div class="statistics">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <h3>Sells</h3>
+            <p>256</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h3>Sells</h3>
+            <p>256</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h3>Sells</h3>
+            <p>256</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h3>Sells</h3>
+            <p>256</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End  statistics-->
+
+  <!-- start about -->
+  <div class="our-customer">
+    <div class="container">
+      <h2 class="con-h2">Our Costomer</h2>
+      <p class="con-p">Lorem ipsum dolor sit amet.</p>
+      <div class="row">
+        <div class="col-lg col-md-4 col-12">
+          <img src="imegs/logocar1.png" alt="team" />
+        </div>
+        <div class="col-lg col-md-4 col-12">
+          <img src="imegs/logocar3.png" alt="team" />
+        </div>
+        <div class="col-lg col-md-4 col-12">
+          <img src="imegs/logocar4.png" alt="team" />
+        </div>
+        <div class="col-lg col-md-4 col-12">
+          <img src="imegs/logocar5.png" alt="team" />
+        </div>
+        <div class="col-lg col-md-4 col-12">
+          <img src="imegs/logocar2.svg" alt="team" />
+        </div>
+        <div class="col-lg col-md-4 col-12">
+          <img src="imegs/logo1.png" alt="team" />
+        </div>
+        <!-- <div class="col-lg col-md-3 col-sm-6">
+                    <img src="imegs/logo1.png" alt="team">
+                </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- End about -->
+
+  <!-- Start news -->
+  <div class="news">
+    <div class="container">
+      <h2 class="con-h2">What's New</h2>
+      <p class="con-p">Lorem ipsum dolor sit amet.</p>
+      <div class="row">
+        <!-- <div class="row row-cols-1 row-cols-md-3 g-4"> -->
+
+        <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
+          <div class="card">
+            <img src="imegs/newCar.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a
+                natural lead-in to additional content. This content is a
+                little bit longer.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
+          <div class="card">
+            <img src="imegs/newUtlity.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a
+                natural lead-in to additional content. This content is a
+                little bit longer.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
+          <div class="card">
+            <img src="imegs/generator.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a
+                natural lead-in to additional content. This content is a
+                little bit longer.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-sm-6 mb-4">
+          <div class="card">
+            <img src="imegs/newcar3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a
+                natural lead-in to additional content. This content is a
+                little bit longer.
+              </p>
+              <button class="btn btn-primary">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+     
+
+
+
+
+
+
+
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- End news -->
+
+  <!-- Footer -->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h4>My WebSits</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate provident, expedita mollitia recusandae
+            consectetur eos ullam accusantium accusamus alias veritatis eligendi illo distinctio voluptatem deserunt!
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h4>SomeLinks</h4>
+          <ul class="links text-center">
+            <li><a href="">Home</a></li>
+            <li><a href="">My Featuers</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Our statistics</a></li>
+            <li><a href="">News</a></li>
+          </ul>
+
+        </div>
+
+
+        <div class="col-sm-4">
+          <h4>contact Us</h4>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li> <a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li> <a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+
+          </ul>
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+  <div class="end">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="padded-half">حقوق الطبع محفوظة &copy; 2023, شركة مشكاة التعليمية</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> -->
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+        </form>
+      </div> 
+      <div class="modal-footer border-top-0">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Button trigger modal -->
+<!-- End Modal -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
